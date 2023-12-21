@@ -30,7 +30,7 @@ def resonate_frequency(p, q):
     return str_trf + " Hz"
     
 Z = standing_wave(X, Y, p, q)
-l = ax.plot_surface(X, Y, Z, cmap="cividis_r", lw=0.5, rstride=1, cstride=1)
+l = ax.plot_surface(X, Y, Z, cmap="winter_r", lw=0.5, rstride=1, cstride=1)
 
 allowed_pq = np.linspace(0, 10, 11)
 
@@ -61,7 +61,7 @@ def update(val):
     q = slider_q.val
     reset_plot()
     Z = standing_wave(X, Y, p, q)
-    l = ax.plot_surface(X, Y, Z, cmap="cividis_r", lw=0.5, rstride=1, cstride=1)
+    l = ax.plot_surface(X, Y, Z, cmap="winter_r", lw=0.5, rstride=1, cstride=1)
     reset_text(p, q)
     fig.canvas.draw_idle()
 
