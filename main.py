@@ -7,8 +7,8 @@ from matplotlib.artist import Artist
 
 #in this diagram we will assume that no modes in the z-direction are excited, this would be rather difficult to visualize/plot.
 #The standing wave pressure gradient will therefor be represented as a level set of the 4d wave function with z=0.
-#a slider should be displayed to jumbe between resonate frequencies, each resonate frequency may be determined experimentally or 
-#fromwave equation, see README.md
+#a slider should be displayed to jump between resonate frequencies, each resonate frequency may be determined experimentally or 
+#from wave equation, see README.md
 
 V_SOUND = 343
 L_X = 1
