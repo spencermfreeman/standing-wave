@@ -3,7 +3,6 @@ import math
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import axes3d
 from matplotlib.widgets import Button, Slider
-from matplotlib.artist import Artist
 
 #in this diagram we will assume that no modes in the z-direction are excited, this would be rather difficult to visualize/plot.
 #The standing wave pressure gradient will therefor be represented as a level set of the 4d wave function with z=0.
