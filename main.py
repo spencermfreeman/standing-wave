@@ -4,11 +4,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import axes3d
 from matplotlib.widgets import Button, Slider
 
-#in this diagram we will assume that no modes in the z-direction are excited, this would be rather difficult to visualize/plot.
-#The standing wave pressure gradient will therefor be represented as a level set of the 4d wave function with z=0.
-#a slider should be displayed to jump between resonate frequencies, each resonate frequency may be determined experimentally or 
-#from wave equation, see README.md
-
 V_SOUND = 343
 L_X = 1
 L_Y = 1
