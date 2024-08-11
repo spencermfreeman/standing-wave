@@ -4,3 +4,4 @@
 - Frequency measurement relates to the input/source signal. 
 - Sliders occasionally need to be double clicked.
 
+![Plot Figure](wavePlot.png)
